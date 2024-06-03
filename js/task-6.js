@@ -14,7 +14,7 @@ function createBoxes(amount) {
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
-    boxesContainer.appendChild(box);
+    boxesContainer.append(box);
   }
 }
 
